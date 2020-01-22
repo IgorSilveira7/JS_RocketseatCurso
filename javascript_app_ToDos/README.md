@@ -10,7 +10,7 @@ a uma lista que é exibida.
 * Introdução a JavaScript
 * Manipulação da DOM
 * JS Assíncrono
-* Realizaço do App
+* Realização do App
 
 ```
 
