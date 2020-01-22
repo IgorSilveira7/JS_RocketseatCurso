@@ -1,0 +1,138 @@
+<html>
+    <head> <title>Curso JS</title></head>
+
+    <body>
+
+        <div id="app">
+            <input type="text" id="inputAdd">
+            <button id="add"> Adicionar</button>
+            <br/>
+            <br/>
+            <br/>
+            
+            <input type="text" id="inputRemove">
+            <button id="remove">Remover</button>
+
+            
+            
+        </div>
+
+
+
+        <script>
+
+            var nomes = [];
+            var pElement = document.createElement('p');
+            
+
+            var containerElement = document.getElementById('app');
+            containerElement.style.height = 200;
+            containerElement.style.width = 500;   
+            containerElement.style.backgroundColor = '#f00';
+            containerElement.appendChild(pElement);
+            
+            var btnElement = document.querySelector('button#add');   //referenciar butao add
+            var inputElement = document.querySelector('input#inputAdd'); // referenciar 1º input
+            btnElement.onclick = function() {
+                if(!(nomes.includes(inputElement.value))) {
+                    nomes.push(inputElement.value);
+                    pElement.innerHTML = nomes;
+                }
+                inputElement.value = "";
+
+                
+            }
+
+            var btnRemove = document.querySelector('button#remove'); // referenciar botao remover
+            var removeElement = document.querySelector('input#inputRemove'); // referenciar 2º input
+            btnRemove.onclick = function() {
+                if(nomes.includes(removeElement.value)) {
+                    nomes.splice(nomes.indexOf(removeElement.value), 1);
+                    pElement.innerHTML = nomes;
+                }
+
+                removeElement.value = "";
+            }
+
+            
+
+
+            
+            /**
+            var linkElement = document.createElement('a');
+            linkElement.setAttribute('href', 'http://google.com');
+
+            var textElement = document.createTextNode('acessar google');
+
+            linkElement.appendChild(textElement);
+
+            var containerElement = document.getElementById('app');
+            containerElement.appendChild(linkElement);
+            **/
+            
+            
+            
+            
+            
+            /**
+            inputElement = document.querySelector('input#nome');
+
+            var btnElement = document.querySelector('button.botao');
+            btnElement.onclick = function() {
+                var text = inputElement.value;
+                alert(text);
+            }
+           **/
+
+
+
+
+
+           /** 
+            var pessoa = {
+                nome: 'igor',
+                idade:23,
+                peso: 66.5
+            };
+
+            var pessoa2 = {
+                nome: 'luiza',
+                idade: 21,
+                peso: 64.5
+            }
+
+            var casal = [pessoa, pessoa2];
+
+            console.log(casal[0].nome + ' ama ' + casal[1].nome);
+            **/
+
+            /**
+            function soma(numero1, numero2) {
+                var result = numero1 + numero2;
+
+                return result;
+            }
+
+            console.log(soma(1,2));
+            **/ 
+
+            /**
+            var sexo = 'f';
+
+            var retorno = (sexo === 'm') ? 'masculino':'feminino';
+
+            console.log(retorno);
+            **/
+
+            /**
+            function exibeAlgo() {
+                console.log('Hello World!');
+            }
+            
+            setInterval(exibeAlgo, 3000); // a cada 3 seg executa a função
+            setTimeout(exibeAlgo, 3000); // espera 3 seg e executa a função
+            **/
+        </script>
+        
+    </body>
+</html>
