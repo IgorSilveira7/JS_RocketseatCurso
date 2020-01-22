@@ -16,7 +16,7 @@ Const e Let
 Operações em Arrays
 Arrow Functions
 Valores Padrão
-Desestruturaço
+Desestruturação
 Operadores rest/spread
 Template Literals
 
