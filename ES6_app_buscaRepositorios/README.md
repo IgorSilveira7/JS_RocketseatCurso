@@ -9,16 +9,16 @@ Caso exista ele é exibido cm um link para acessá-lo, caso não, uma mensagem d
 - Conceitos:
 
 ```
-Node & Yarn
-Babel
-Classes
-Const e Let
-Operações em Arrays
-Arrow Functions
-Valores Padrão
-Desestruturação
-Operadores rest/spread
-Template Literals
+- Node & Yarn
+- Babel
+- Classes
+- Const e Let
+- Operações em Arrays
+- Arrow Functions
+- Valores Padrão
+- Desestruturação
+- Operadores rest/spread
+- Template Literals
 
 ```
 - WebPack Server
