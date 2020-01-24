@@ -1,4 +1,10 @@
-1) Instala o express: Serve para tratar rotas e as views.
+### Aplicação: Uma aplicação com um simples CRUD de produtos.
+
+
+
+### Observações:
+
+1) Instalei o express: Serve para tratar rotas e as views.
 
 2) No arquivo "package.json": Onde fica todas as informações
 da minha api, incluindo as dependências usadas.
