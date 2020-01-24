@@ -21,4 +21,4 @@ dependências instaladas e assim evitando que instale a mesma dependência.
 5) Instalei o Docker: Cria uma máquina virtual para conseguir instalar 
 os bancos de dados sem medo de dar conflitos mais tarde.
 
-6)Instalei o Robo 3T: Para verificar se as tabelas do banco de dados estão sendo criadas.
+6) Instalei o Robo 3T: Para verificar se as tabelas do banco de dados estão sendo criadas.
