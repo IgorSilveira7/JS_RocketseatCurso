@@ -1,5 +1,5 @@
-### Aplicação: 
-Uma aplicação com um simples CRUD de produtos.
+### node_api: 
+Uma API com um simples CRUD de produtos.
 
 
 
