@@ -1,4 +1,14 @@
-1) Instala o express: Serve para tratar rotas e as views.
+## Primeiro contato com NodeJS!
+
+
+### node_api: 
+Uma API com um simples CRUD de produtos.
+
+
+
+### Observações:
+
+1) Instalei o express: Serve para tratar rotas e as views.
 
 2) No arquivo "package.json": Onde fica todas as informações
 da minha api, incluindo as dependências usadas.
@@ -11,4 +21,4 @@ dependências instaladas e assim evitando que instale a mesma dependência.
 5) Instalei o Docker: Cria uma máquina virtual para conseguir instalar 
 os bancos de dados sem medo de dar conflitos mais tarde.
 
-6)Instalei o Robo 3T: Para verificar se as tabelas do banco de dados estão sendo criadas.
+6) Instalei o Robo 3T: Para verificar se as tabelas do banco de dados estão sendo criadas.
